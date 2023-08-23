@@ -1,0 +1,167 @@
+/* Import fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* Apply styling to various elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 1.05rem; /* Fixed the font size unit */
+}
+
+h4 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-left: 20px;
+}
+
+i {
+    font-size: 1.5rem;
+    align-content: space-between;
+    display:flex;
+    flex-direction: row;
+    align-items :end ; 
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin-right: 30%;
+
+}
+
+p, a {
+    font-size: 0.9rem;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 12px 0;
+}
+
+/* Header styles */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #000; /* Added color value */
+}
+.logo-container{
+    display: flex;
+
+}
+
+.logo-img {
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#logo-txt {
+    letter-spacing: -1.5px;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Search container styles */
+.search-container {
+    display:flex;
+    align-items: center;
+    margin-left: 30%;
+    height: 50px;
+    padding: 0 16px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+/*.button{
+    display:flex;
+    height: 50px;
+    padding: 0 16px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}*/
+
+.search-container form {
+    display:flex;
+    position: relative;
+    width: 100%;
+}
+
+.search-container input {
+    height: 40px;
+    display: block; /* Changed from 'flex' to 'block' */
+    width: 50%;
+    align-content: center;
+    ;
+}
+
+/* Rest of your styles... */
+
+/* Adjusted video and videos container styles */
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px; 
+}/* Added margin to give space below header */
+
+.video, .video1, .video2, .video3 , .video4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    
+}
+
+.video1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.video2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.video3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.video4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+

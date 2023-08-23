@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style> p {color:rgb(255, 127, 148);
+    font-weight: bold ;
+    font-size: 50px;
+
+    }
+    label {color:brown;
+        height:"100px";
+        width:"20%";
+    }
+
+    input {color:red;
+        height:"100px";
+        width:"20%";
+    }   
+    div{ width:50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto
+    }
+    legend{
+        background-color: red;
+    }
+    div {
+  background-image: url("1682641738460.jpg");
+}
+
+    </style>   
+</head>
+<body>
+    
+<div>
+
+    <p> Formulaire d'inscription</p>
+    <form action="/action_page.php">
+        <fieldset>
+
+            <label for="salut">Salutations</label><br>
+            <select id="salut" name="salut">
+            </select><br>
+            
+          <legend>Personal Details:</legend>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" ><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname"><br>
+
+          
+          <label for="gender"> Gender : </label>
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="male">
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="female"><br>
+          
+
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" name="email"><br>
+          <label for="date">Date of Birth:</label>
+          <input type="date" id="date" name="date"><br>
+          <label for="adress">Address:</label><br>
+          <textarea name="Address" rows="10" cols="30">
+            
+            </textarea><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+
+    </div>
+
+</body>
+</html>
